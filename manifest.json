@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Foco-ai",
+  "version": "1.0",
+
+  "description": "Remove some HTML content protection",
+
+  "icons": {
+    "48": "icons/foco-ai48.png"
+  },
+
+  "content_scripts": [
+    {
+      "js": ["foco-ai.js"]
+    }
+  ]
+}
